@@ -19,10 +19,12 @@ class Timer {
         }
         this.tick();
         this.interval = setInterval(this.tick, 20);
+        this.startButton.setAttribute('disabled', 'disabled');
     }
 
     pause = () => {
         clearInterval(this.interval);
+        this.startButton.removeAttribute('disabled');
     }
 
     tick = () => {
