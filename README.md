@@ -1,2 +1,2 @@
 # pomodoro
-Class-based pomodoro timer app
+Class-based pomodoro timer app.
