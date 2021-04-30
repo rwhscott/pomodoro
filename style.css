@@ -6,6 +6,12 @@
 .timer {
 	position: relative;
 	display: inline-block;
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	top: 50%;
+	left: 50%;
+	margin: -200px 0 0 -200px;
 }
 
 * {
@@ -13,6 +19,7 @@
 }
 
 body {
+	background-color: #e9ecef;
 	font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
 		"Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -20,6 +27,7 @@ body {
 .timer input {
 	display: block;
 	border: none;
+	background-color: #e9ecef;
 	width: 240px;
 	font-size: 90px;
 	text-align: center;
